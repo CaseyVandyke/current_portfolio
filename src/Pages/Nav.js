@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/Nav.scss';
 
 const Nav = () => {
+
     return (
-        <nav>
-            <ul>
+        <nav className='container'>
+            <ul className='list'>
                 <Link to='/'>
                     <li>Home</li>
                 </Link>

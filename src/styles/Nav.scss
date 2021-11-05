@@ -1,0 +1,17 @@
+$clr: #999999;
+
+.container {
+    .list {
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+}
+
