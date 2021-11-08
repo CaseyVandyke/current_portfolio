@@ -1,12 +1,14 @@
-$clr: #999999;
+@use 'base';
 
-.container {
+.nav-container {
     .list {
         display: flex;
         justify-content: center;
     }
 
     a {
+        color: base.$color;
+        margin-right: 30px;
         text-decoration: none;
     }
 

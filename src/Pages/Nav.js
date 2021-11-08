@@ -5,7 +5,7 @@ import '../styles/Nav.scss';
 const Nav = () => {
 
     return (
-        <nav className='container'>
+        <nav className='nav-container'>
             <ul className='list'>
                 <Link to='/'>
                     <li>Home</li>
