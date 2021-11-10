@@ -1,5 +1,8 @@
-$font: 'Lobster', cursive;
-$color: #000000;
+$font: 'Roboto';
+$fontColor: #FFFFFF;
+$themeOne: #716b94;
+$themeTwo: #663399;
+$themeThree: #14044d;
 
 * {
     margin: 0;
@@ -7,6 +10,6 @@ $color: #000000;
 }
 
 body {
+    color: $fontColor;
     font-family: $font;
-    color: $color;
 }

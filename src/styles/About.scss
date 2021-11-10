@@ -1,5 +1,15 @@
+$spacing: 10px 20px;
 @use 'base';
 
 .about-container {
-    
+     .about-title {
+         padding: $spacing;
+         text-align: center;
+     }
+
+     .about-info {
+         margin: 0 auto;
+         padding: $spacing;
+         width: 70%;
+     }
 }

@@ -1,13 +1,20 @@
 @use 'base';
 
 .nav-container {
+    background-image: linear-gradient(to right, base.$themeOne, base.$themeTwo, base.$themeThree);
+    padding: 10px 20px;
+
+    .fab {
+        font-size: 20px;
+    }
+
     .list {
         display: flex;
         justify-content: center;
     }
 
     a {
-        color: base.$color;
+        color: base.$fontColor;
         margin-right: 30px;
         text-decoration: none;
     }
