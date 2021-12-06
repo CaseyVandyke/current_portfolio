@@ -1,0 +1,7 @@
+@use 'base';
+
+.home-container {
+    color: base.$themeThree;
+    margin: 0 auto;
+    max-width: 964px;
+}
