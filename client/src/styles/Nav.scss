@@ -1,26 +1,42 @@
 @use 'base';
 
 .nav-container {
-    background-image: linear-gradient(to right, base.$themeOne, base.$themeTwo, base.$themeThree);
+    align-items: center;
+    display: flex;
     padding: 10px 20px;
+    position: relative;
 
     .fab {
         font-size: 20px;
     }
 
+    .list-container {
+        margin-left: auto;
+    }
+
     .list {
         display: flex;
-        justify-content: center;
     }
 
     a {
-        color: base.$fontColor;
+        color: base.$fontColorTwo;
         margin-right: 30px;
         text-decoration: none;
     }
 
     li {
         list-style: none;
+    }
+
+    .icon-container {
+        
+    }
+
+    .icon {
+        background-color: base.$fontColorTwo;
+        border-radius: 50%;
+        height: 24px;
+        width: 24px;
     }
 }
 
